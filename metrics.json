@@ -1,0 +1,14 @@
+{
+  "PPO": {
+    "reward": 7.054000000000001,
+    "success_rate": 1.0
+  },
+  "Random": {
+    "reward": 0.214,
+    "success_rate": 0.76
+  },
+  "Greedy Similarity": {
+    "reward": 9.424999999999999,
+    "success_rate": 1.0
+  }
+}

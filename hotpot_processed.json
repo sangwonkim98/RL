@@ -1,0 +1,29 @@
+[
+  {
+    "id": "hp_001",
+    "question": "Who directed the movie involving a detective and a robot?",
+    "answer": "John Doe",
+    "documents": [
+      {
+        "title": "Director Bio",
+        "text": "John Doe is a famous director who made Movie Alpha.",
+        "is_support": 1
+      },
+      {
+        "title": "Movie Alpha",
+        "text": "Movie Alpha is a 2020 film about a detective and a robot.",
+        "is_support": 1
+      },
+      {
+        "title": "Random News",
+        "text": "The weather today is sunny with a chance of rain.",
+        "is_support": 0
+      },
+      {
+        "title": "Cooking Tips",
+        "text": "To make a great omelette, use fresh eggs and butter.",
+        "is_support": 0
+      }
+    ]
+  }
+]

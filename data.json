@@ -1,0 +1,742 @@
+[
+  {
+    "id": "ex_0",
+    "question": "What is related to AI?",
+    "answer": "Answer about AI",
+    "documents": [
+      {
+        "id": "doc_0_4",
+        "title": "Irrelevant Doc 3",
+        "text": "This document is about something else like Math.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_0_1",
+        "title": "Irrelevant Doc 0",
+        "text": "This document is about something else like Math.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_0_3",
+        "title": "Irrelevant Doc 2",
+        "text": "This document is about something else like Space.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_0_2",
+        "title": "Irrelevant Doc 1",
+        "text": "This document is about something else like History.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_0_0",
+        "title": "Support Doc for AI 0",
+        "text": "This document contains important info about AI and its properties.",
+        "is_support": 1
+      }
+    ]
+  },
+  {
+    "id": "ex_1",
+    "question": "What is related to Pizza?",
+    "answer": "Answer about Pizza",
+    "documents": [
+      {
+        "id": "doc_1_4",
+        "title": "Irrelevant Doc 2",
+        "text": "This document is about something else like Quantum Mechanics.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_1_1",
+        "title": "Support Doc for Pizza 1",
+        "text": "This document contains important info about Pizza and its properties.",
+        "is_support": 1
+      },
+      {
+        "id": "doc_1_3",
+        "title": "Irrelevant Doc 1",
+        "text": "This document is about something else like Paris.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_1_2",
+        "title": "Irrelevant Doc 0",
+        "text": "This document is about something else like Paris.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_1_0",
+        "title": "Support Doc for Pizza 0",
+        "text": "This document contains important info about Pizza and its properties.",
+        "is_support": 1
+      }
+    ]
+  },
+  {
+    "id": "ex_2",
+    "question": "What is related to Dogs?",
+    "answer": "Answer about Dogs",
+    "documents": [
+      {
+        "id": "doc_2_0",
+        "title": "Support Doc for Dogs 0",
+        "text": "This document contains important info about Dogs and its properties.",
+        "is_support": 1
+      },
+      {
+        "id": "doc_2_4",
+        "title": "Irrelevant Doc 2",
+        "text": "This document is about something else like Pizza.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_2_1",
+        "title": "Support Doc for Dogs 1",
+        "text": "This document contains important info about Dogs and its properties.",
+        "is_support": 1
+      },
+      {
+        "id": "doc_2_3",
+        "title": "Irrelevant Doc 1",
+        "text": "This document is about something else like History.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_2_2",
+        "title": "Irrelevant Doc 0",
+        "text": "This document is about something else like Space.",
+        "is_support": 0
+      }
+    ]
+  },
+  {
+    "id": "ex_3",
+    "question": "What is related to Paris?",
+    "answer": "Answer about Paris",
+    "documents": [
+      {
+        "id": "doc_3_0",
+        "title": "Support Doc for Paris 0",
+        "text": "This document contains important info about Paris and its properties.",
+        "is_support": 1
+      },
+      {
+        "id": "doc_3_3",
+        "title": "Irrelevant Doc 2",
+        "text": "This document is about something else like Biology.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_3_1",
+        "title": "Irrelevant Doc 0",
+        "text": "This document is about something else like Biology.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_3_2",
+        "title": "Irrelevant Doc 1",
+        "text": "This document is about something else like Dogs.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_3_4",
+        "title": "Irrelevant Doc 3",
+        "text": "This document is about something else like Quantum Mechanics.",
+        "is_support": 0
+      }
+    ]
+  },
+  {
+    "id": "ex_4",
+    "question": "What is related to Coffee?",
+    "answer": "Answer about Coffee",
+    "documents": [
+      {
+        "id": "doc_4_4",
+        "title": "Irrelevant Doc 2",
+        "text": "This document is about something else like Pizza.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_4_0",
+        "title": "Support Doc for Coffee 0",
+        "text": "This document contains important info about Coffee and its properties.",
+        "is_support": 1
+      },
+      {
+        "id": "doc_4_1",
+        "title": "Support Doc for Coffee 1",
+        "text": "This document contains important info about Coffee and its properties.",
+        "is_support": 1
+      },
+      {
+        "id": "doc_4_3",
+        "title": "Irrelevant Doc 1",
+        "text": "This document is about something else like Biology.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_4_2",
+        "title": "Irrelevant Doc 0",
+        "text": "This document is about something else like AI.",
+        "is_support": 0
+      }
+    ]
+  },
+  {
+    "id": "ex_5",
+    "question": "What is related to Pizza?",
+    "answer": "Answer about Pizza",
+    "documents": [
+      {
+        "id": "doc_5_1",
+        "title": "Irrelevant Doc 0",
+        "text": "This document is about something else like History.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_5_4",
+        "title": "Irrelevant Doc 3",
+        "text": "This document is about something else like Quantum Mechanics.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_5_3",
+        "title": "Irrelevant Doc 2",
+        "text": "This document is about something else like Space.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_5_0",
+        "title": "Support Doc for Pizza 0",
+        "text": "This document contains important info about Pizza and its properties.",
+        "is_support": 1
+      },
+      {
+        "id": "doc_5_2",
+        "title": "Irrelevant Doc 1",
+        "text": "This document is about something else like Space.",
+        "is_support": 0
+      }
+    ]
+  },
+  {
+    "id": "ex_6",
+    "question": "What is related to Pizza?",
+    "answer": "Answer about Pizza",
+    "documents": [
+      {
+        "id": "doc_6_1",
+        "title": "Irrelevant Doc 0",
+        "text": "This document is about something else like History.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_6_4",
+        "title": "Irrelevant Doc 3",
+        "text": "This document is about something else like Math.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_6_3",
+        "title": "Irrelevant Doc 2",
+        "text": "This document is about something else like Math.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_6_0",
+        "title": "Support Doc for Pizza 0",
+        "text": "This document contains important info about Pizza and its properties.",
+        "is_support": 1
+      },
+      {
+        "id": "doc_6_2",
+        "title": "Irrelevant Doc 1",
+        "text": "This document is about something else like AI.",
+        "is_support": 0
+      }
+    ]
+  },
+  {
+    "id": "ex_7",
+    "question": "What is related to Biology?",
+    "answer": "Answer about Biology",
+    "documents": [
+      {
+        "id": "doc_7_4",
+        "title": "Irrelevant Doc 2",
+        "text": "This document is about something else like Dogs.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_7_2",
+        "title": "Irrelevant Doc 0",
+        "text": "This document is about something else like History.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_7_1",
+        "title": "Support Doc for Biology 1",
+        "text": "This document contains important info about Biology and its properties.",
+        "is_support": 1
+      },
+      {
+        "id": "doc_7_3",
+        "title": "Irrelevant Doc 1",
+        "text": "This document is about something else like History.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_7_0",
+        "title": "Support Doc for Biology 0",
+        "text": "This document contains important info about Biology and its properties.",
+        "is_support": 1
+      }
+    ]
+  },
+  {
+    "id": "ex_8",
+    "question": "What is related to Math?",
+    "answer": "Answer about Math",
+    "documents": [
+      {
+        "id": "doc_8_0",
+        "title": "Support Doc for Math 0",
+        "text": "This document contains important info about Math and its properties.",
+        "is_support": 1
+      },
+      {
+        "id": "doc_8_2",
+        "title": "Irrelevant Doc 1",
+        "text": "This document is about something else like History.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_8_1",
+        "title": "Irrelevant Doc 0",
+        "text": "This document is about something else like Dogs.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_8_3",
+        "title": "Irrelevant Doc 2",
+        "text": "This document is about something else like Biology.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_8_4",
+        "title": "Irrelevant Doc 3",
+        "text": "This document is about something else like Biology.",
+        "is_support": 0
+      }
+    ]
+  },
+  {
+    "id": "ex_9",
+    "question": "What is related to Paris?",
+    "answer": "Answer about Paris",
+    "documents": [
+      {
+        "id": "doc_9_4",
+        "title": "Irrelevant Doc 3",
+        "text": "This document is about something else like History.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_9_3",
+        "title": "Irrelevant Doc 2",
+        "text": "This document is about something else like Biology.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_9_2",
+        "title": "Irrelevant Doc 1",
+        "text": "This document is about something else like AI.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_9_1",
+        "title": "Irrelevant Doc 0",
+        "text": "This document is about something else like Space.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_9_0",
+        "title": "Support Doc for Paris 0",
+        "text": "This document contains important info about Paris and its properties.",
+        "is_support": 1
+      }
+    ]
+  },
+  {
+    "id": "ex_10",
+    "question": "What is related to Space?",
+    "answer": "Answer about Space",
+    "documents": [
+      {
+        "id": "doc_10_2",
+        "title": "Irrelevant Doc 0",
+        "text": "This document is about something else like Coffee.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_10_4",
+        "title": "Irrelevant Doc 2",
+        "text": "This document is about something else like Dogs.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_10_3",
+        "title": "Irrelevant Doc 1",
+        "text": "This document is about something else like Quantum Mechanics.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_10_0",
+        "title": "Support Doc for Space 0",
+        "text": "This document contains important info about Space and its properties.",
+        "is_support": 1
+      },
+      {
+        "id": "doc_10_1",
+        "title": "Support Doc for Space 1",
+        "text": "This document contains important info about Space and its properties.",
+        "is_support": 1
+      }
+    ]
+  },
+  {
+    "id": "ex_11",
+    "question": "What is related to AI?",
+    "answer": "Answer about AI",
+    "documents": [
+      {
+        "id": "doc_11_3",
+        "title": "Irrelevant Doc 1",
+        "text": "This document is about something else like History.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_11_4",
+        "title": "Irrelevant Doc 2",
+        "text": "This document is about something else like Biology.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_11_1",
+        "title": "Support Doc for AI 1",
+        "text": "This document contains important info about AI and its properties.",
+        "is_support": 1
+      },
+      {
+        "id": "doc_11_2",
+        "title": "Irrelevant Doc 0",
+        "text": "This document is about something else like Biology.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_11_0",
+        "title": "Support Doc for AI 0",
+        "text": "This document contains important info about AI and its properties.",
+        "is_support": 1
+      }
+    ]
+  },
+  {
+    "id": "ex_12",
+    "question": "What is related to Quantum Mechanics?",
+    "answer": "Answer about Quantum Mechanics",
+    "documents": [
+      {
+        "id": "doc_12_0",
+        "title": "Support Doc for Quantum Mechanics 0",
+        "text": "This document contains important info about Quantum Mechanics and its properties.",
+        "is_support": 1
+      },
+      {
+        "id": "doc_12_4",
+        "title": "Irrelevant Doc 3",
+        "text": "This document is about something else like Space.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_12_3",
+        "title": "Irrelevant Doc 2",
+        "text": "This document is about something else like AI.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_12_1",
+        "title": "Irrelevant Doc 0",
+        "text": "This document is about something else like Math.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_12_2",
+        "title": "Irrelevant Doc 1",
+        "text": "This document is about something else like Biology.",
+        "is_support": 0
+      }
+    ]
+  },
+  {
+    "id": "ex_13",
+    "question": "What is related to Space?",
+    "answer": "Answer about Space",
+    "documents": [
+      {
+        "id": "doc_13_1",
+        "title": "Irrelevant Doc 0",
+        "text": "This document is about something else like Biology.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_13_2",
+        "title": "Irrelevant Doc 1",
+        "text": "This document is about something else like Paris.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_13_4",
+        "title": "Irrelevant Doc 3",
+        "text": "This document is about something else like AI.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_13_3",
+        "title": "Irrelevant Doc 2",
+        "text": "This document is about something else like AI.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_13_0",
+        "title": "Support Doc for Space 0",
+        "text": "This document contains important info about Space and its properties.",
+        "is_support": 1
+      }
+    ]
+  },
+  {
+    "id": "ex_14",
+    "question": "What is related to Biology?",
+    "answer": "Answer about Biology",
+    "documents": [
+      {
+        "id": "doc_14_2",
+        "title": "Irrelevant Doc 0",
+        "text": "This document is about something else like Space.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_14_3",
+        "title": "Irrelevant Doc 1",
+        "text": "This document is about something else like History.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_14_1",
+        "title": "Support Doc for Biology 1",
+        "text": "This document contains important info about Biology and its properties.",
+        "is_support": 1
+      },
+      {
+        "id": "doc_14_0",
+        "title": "Support Doc for Biology 0",
+        "text": "This document contains important info about Biology and its properties.",
+        "is_support": 1
+      },
+      {
+        "id": "doc_14_4",
+        "title": "Irrelevant Doc 2",
+        "text": "This document is about something else like Pizza.",
+        "is_support": 0
+      }
+    ]
+  },
+  {
+    "id": "ex_15",
+    "question": "What is related to Paris?",
+    "answer": "Answer about Paris",
+    "documents": [
+      {
+        "id": "doc_15_3",
+        "title": "Irrelevant Doc 1",
+        "text": "This document is about something else like Pizza.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_15_2",
+        "title": "Irrelevant Doc 0",
+        "text": "This document is about something else like Coffee.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_15_4",
+        "title": "Irrelevant Doc 2",
+        "text": "This document is about something else like Dogs.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_15_1",
+        "title": "Support Doc for Paris 1",
+        "text": "This document contains important info about Paris and its properties.",
+        "is_support": 1
+      },
+      {
+        "id": "doc_15_0",
+        "title": "Support Doc for Paris 0",
+        "text": "This document contains important info about Paris and its properties.",
+        "is_support": 1
+      }
+    ]
+  },
+  {
+    "id": "ex_16",
+    "question": "What is related to AI?",
+    "answer": "Answer about AI",
+    "documents": [
+      {
+        "id": "doc_16_4",
+        "title": "Irrelevant Doc 3",
+        "text": "This document is about something else like History.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_16_0",
+        "title": "Support Doc for AI 0",
+        "text": "This document contains important info about AI and its properties.",
+        "is_support": 1
+      },
+      {
+        "id": "doc_16_3",
+        "title": "Irrelevant Doc 2",
+        "text": "This document is about something else like Paris.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_16_1",
+        "title": "Irrelevant Doc 0",
+        "text": "This document is about something else like Pizza.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_16_2",
+        "title": "Irrelevant Doc 1",
+        "text": "This document is about something else like History.",
+        "is_support": 0
+      }
+    ]
+  },
+  {
+    "id": "ex_17",
+    "question": "What is related to Biology?",
+    "answer": "Answer about Biology",
+    "documents": [
+      {
+        "id": "doc_17_1",
+        "title": "Irrelevant Doc 0",
+        "text": "This document is about something else like History.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_17_0",
+        "title": "Support Doc for Biology 0",
+        "text": "This document contains important info about Biology and its properties.",
+        "is_support": 1
+      },
+      {
+        "id": "doc_17_3",
+        "title": "Irrelevant Doc 2",
+        "text": "This document is about something else like Math.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_17_2",
+        "title": "Irrelevant Doc 1",
+        "text": "This document is about something else like Coffee.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_17_4",
+        "title": "Irrelevant Doc 3",
+        "text": "This document is about something else like Math.",
+        "is_support": 0
+      }
+    ]
+  },
+  {
+    "id": "ex_18",
+    "question": "What is related to Math?",
+    "answer": "Answer about Math",
+    "documents": [
+      {
+        "id": "doc_18_0",
+        "title": "Support Doc for Math 0",
+        "text": "This document contains important info about Math and its properties.",
+        "is_support": 1
+      },
+      {
+        "id": "doc_18_1",
+        "title": "Support Doc for Math 1",
+        "text": "This document contains important info about Math and its properties.",
+        "is_support": 1
+      },
+      {
+        "id": "doc_18_2",
+        "title": "Irrelevant Doc 0",
+        "text": "This document is about something else like Biology.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_18_3",
+        "title": "Irrelevant Doc 1",
+        "text": "This document is about something else like Coffee.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_18_4",
+        "title": "Irrelevant Doc 2",
+        "text": "This document is about something else like Space.",
+        "is_support": 0
+      }
+    ]
+  },
+  {
+    "id": "ex_19",
+    "question": "What is related to Coffee?",
+    "answer": "Answer about Coffee",
+    "documents": [
+      {
+        "id": "doc_19_2",
+        "title": "Irrelevant Doc 0",
+        "text": "This document is about something else like Math.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_19_1",
+        "title": "Support Doc for Coffee 1",
+        "text": "This document contains important info about Coffee and its properties.",
+        "is_support": 1
+      },
+      {
+        "id": "doc_19_3",
+        "title": "Irrelevant Doc 1",
+        "text": "This document is about something else like Dogs.",
+        "is_support": 0
+      },
+      {
+        "id": "doc_19_0",
+        "title": "Support Doc for Coffee 0",
+        "text": "This document contains important info about Coffee and its properties.",
+        "is_support": 1
+      },
+      {
+        "id": "doc_19_4",
+        "title": "Irrelevant Doc 2",
+        "text": "This document is about something else like Dogs.",
+        "is_support": 0
+      }
+    ]
+  }
+]
