@@ -65,3 +65,4 @@ Then, update the `data_path` in `train.py` or `eval.py` to point to the new file
     - `-0.2`: Irrelevant document selected.
     - `-0.5`: Repeated selection of same doc.
     - `-0.05`: Step penalty.
+# RL
