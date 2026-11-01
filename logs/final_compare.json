@@ -1,0 +1,20 @@
+{
+  "iterative_bm25": {
+    "label": "Iterative BM25 (real 7B)",
+    "n": 199,
+    "success_rate": 0.35175879396984927,
+    "avg_gold_hit": 1.256281407035176,
+    "avg_reads": 2.798994974874372,
+    "avg_length": 3.2964824120603016
+  },
+  "ppo_router": {
+    "label": "PPO Router (real 7B trained, real 7B eval)",
+    "n": 199,
+    "success_rate": 0.7085427135678392,
+    "avg_gold_hit": 1.2060301507537687,
+    "avg_reads": 2.1105527638190953,
+    "avg_length": 3.0452261306532664
+  },
+  "ppo_model": "logs/ppo_real_7b_100k.zip",
+  "vllm_model": "Qwen/Qwen2.5-7B-Instruct"
+}
